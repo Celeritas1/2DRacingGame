@@ -1,0 +1,30 @@
+[gd_scene load_steps=2 format=3 uid="uid://cv2wc7qlivnns"]
+
+[ext_resource type="Script" uid="uid://c6t2x6n0cawcy" path="res://scenes/Main.gd" id="1_elqb8"]
+
+[node name="Main" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_elqb8")
+
+[node name="MoneyLabel" type="Label" parent="."]
+layout_mode = 1
+offset_right = 80.0
+offset_bottom = 49.0
+text = "Money: $0
+"
+
+[node name="RaceButton" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -31.0
+offset_right = 50.0
+grow_vertical = 0
+text = "Race!
+"
